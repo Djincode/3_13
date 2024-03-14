@@ -71,21 +71,31 @@
 .card {
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 31%;
+    max-width: 31%;
     height: 400px;
     overflow: hidden;
+    
   }
 
   .card-container {
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
+    margin-top: 50px;
   }
 
 
   .card img{
     width: 100%;
 
+  }
+
+  .card h2{
+    padding: 20px;
+  }
+
+  .card p{
+    padding: 0 20px;
   }
